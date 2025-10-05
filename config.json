@@ -1,0 +1,18 @@
+{
+  "home_coordinates": {
+    "latitude": 40.7717582,
+    "longitude": -73.9885713
+  },
+  "bounding_box": {
+    "lat_min": 40.7,
+    "lat_max": 40.9,
+    "lon_min": -74.1,
+    "lon_max": -73.8
+  },
+  "view_filter": {
+    "bearing_min": 30,
+    "bearing_max": 120
+  },
+  "refresh_interval": 10,
+  "api_endpoint": "https://opensky-network.org/api/states/all"
+}
