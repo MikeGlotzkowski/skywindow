@@ -48,11 +48,34 @@ A real-time aircraft tracking application that displays flights above and around
    - `REFRESH_INTERVAL` - How often to update (in seconds)
    - Bounding box coordinates for the area to monitor
 
+4. **Verify your setup** (optional):
+   ```bash
+   python quickstart.py
+   ```
+   
+   This will check your dependencies and configuration.
+
 ## 🎮 Usage
 
-Run the tracker:
+### Quick Start
+
+Check your setup and get started quickly:
+```bash
+python quickstart.py
+```
+
+### Run the Tracker
+
+Run the live tracker with real data:
 ```bash
 python main.py
+```
+
+### Demo Mode
+
+Try the demo with simulated data (no API credentials needed):
+```bash
+python demo.py
 ```
 
 The application will:
@@ -177,6 +200,8 @@ It's recommended to create a free account at https://opensky-network.org/ for be
 skywindow/
 ├── main.py              # Main application entry point
 ├── utils.py             # Utility functions (distance, bearing, conversions)
+├── demo.py              # Demo mode with simulated data
+├── quickstart.py        # Setup verification and quick start guide
 ├── config.json          # Default configuration
 ├── .env.example         # Example environment variables
 ├── requirements.txt     # Python dependencies
